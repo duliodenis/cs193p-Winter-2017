@@ -12,8 +12,8 @@ This course is described as being updated for iOS 10 and Swift 3, Tools, and API
 Lecture  | Slides | Source | Video | Date
 ------------- | ------------- | ------------- | ------------- | -------------
 1. | [Course Overview: Intro to iOS, Xcode, and Swift](slides/Lecture-1-Slides.pdf) |  |  | January 9, 2017
-2. | Applying MVC: Calculator Demo Continued |  |  | January 11, 2017
-3. | More Swift & Foundation Framework |  |  | January 18, 2017
+2. | [Applying MVC: Calculator Demo Continued](slides/Lecture-2-Slides.pdf) |  |  | January 11, 2017
+3. | [More Swift & Foundation Framework](slides/Lecture-3-Slides.pdf) |  |  | January 18, 2017
 
 ## Reading Assignments
 Reading  | Name
