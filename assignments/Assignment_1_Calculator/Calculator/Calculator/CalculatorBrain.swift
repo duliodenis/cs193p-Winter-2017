@@ -8,9 +8,13 @@
 
 import Foundation
 
-// global function
+// global support functions
 func changeSign(operand: Double) -> Double {
     return -operand
+}
+
+func multiply(op1: Double, op2: Double) -> Double {
+    return op1 * op2
 }
 
 struct CalculatorBrain {
@@ -23,6 +27,8 @@ struct CalculatorBrain {
     private enum Operation {
         case constant(Double)
         case unary((Double) -> Double)
+        case binary((Double,Double) -> Double)
+        case equals
     }
     
     // private dictionary of operations
@@ -31,7 +37,9 @@ struct CalculatorBrain {
         "e" : Operation.constant(M_E),
         "√" : Operation.unary(sqrt),
         "cos" : Operation.unary(cos),
-        "±" : Operation.unary(changeSign)
+        "±" : Operation.unary(changeSign),
+        "×" : Operation.binary(multiply),
+        "=" : Operation.equals
     ]
     
     mutating func performOperation(_ symbol: String) {
@@ -43,7 +51,37 @@ struct CalculatorBrain {
                 if accumulator != nil {
                     accumulator = f(accumulator!)
                 }
+            case .binary(let f):
+                if accumulator != nil {
+                    pendingBinaryOperation = PendingBinaryOperation(function: f, firstOperand: accumulator!)
+                    accumulator = nil
+                }
+            case .equals:
+                performPendingBinaryOperation()
             }
+        }
+    }
+    
+    // Private mutating func for performing pending binary operations
+    mutating func performPendingBinaryOperation() {
+        if pendingBinaryOperation != nil && accumulator != nil {
+            accumulator = pendingBinaryOperation!.perform(with: accumulator!)
+            pendingBinaryOperation = nil
+        }
+    }
+    
+    // Private optional Pending Binary Operation
+    private var pendingBinaryOperation: PendingBinaryOperation?
+    
+    // embedded private struct to support binary operations
+    // with a constant function and pending first operand
+    // doesn't need mutating since its just returning a value
+    private struct PendingBinaryOperation {
+        let function: (Double, Double) -> Double
+        let firstOperand: Double
+        
+        func perform(with secondOperand: Double) -> Double {
+            return function(firstOperand, secondOperand)
         }
     }
     

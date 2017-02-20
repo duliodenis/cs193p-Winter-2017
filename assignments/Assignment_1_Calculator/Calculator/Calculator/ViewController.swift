@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     // implicitly unwrapped optional
     @IBOutlet weak var display: UILabel!
     
-    // implicit, inferred type
+    // inferred type
     var userIsInTheMiddleOfTyping = false
 
     @IBAction func touchDigit(_ sender: UIButton) {
