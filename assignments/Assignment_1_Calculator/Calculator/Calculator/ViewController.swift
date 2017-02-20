@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     // implicitly unwrapped optional
     @IBOutlet weak var display: UILabel!
     
-    // implicit type
+    // implicit, inferred type
     var userIsInTheMiddleOfTyping = false
 
     @IBAction func touchDigit(_ sender: UIButton) {
@@ -37,17 +37,23 @@ class ViewController: UIViewController {
         }
     }
     
+    // private model property
+    private var brain = CalculatorBrain()
+    
     @IBAction func performOperation(_ sender: UIButton) {
-        userIsInTheMiddleOfTyping = false
+        if userIsInTheMiddleOfTyping {
+            brain.setOperand(displayValue)
+            userIsInTheMiddleOfTyping = false
+        }
+        
+        // perform the operation
         if let mathematicalSymbol = sender.currentTitle {
-            switch mathematicalSymbol {
-            case "π":
-                displayValue = Double.pi
-            case "√":
-                displayValue = sqrt(displayValue)
-            default:
-                break
-            }
+            brain.performOperation(mathematicalSymbol)
+        }
+        
+        // update the display if I can
+        if let result = brain.result {
+            displayValue = result
         }
     }
     

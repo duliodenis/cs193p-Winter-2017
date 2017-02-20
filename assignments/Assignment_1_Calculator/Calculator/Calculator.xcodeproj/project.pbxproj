@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E18020A11E5A58E000BF1408 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18020A01E5A58E000BF1408 /* CalculatorBrain.swift */; };
 		E1BCFBA11E57CD5A00F0BA5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCFBA01E57CD5A00F0BA5F /* AppDelegate.swift */; };
 		E1BCFBA31E57CD5A00F0BA5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCFBA21E57CD5A00F0BA5F /* ViewController.swift */; };
 		E1BCFBA61E57CD5A00F0BA5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BCFBA41E57CD5A00F0BA5F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E18020A01E5A58E000BF1408 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		E1BCFB9D1E57CD5A00F0BA5F /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BCFBA01E57CD5A00F0BA5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1BCFBA21E57CD5A00F0BA5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				E1BCFBA21E57CD5A00F0BA5F /* ViewController.swift */,
 				E1BCFBA41E57CD5A00F0BA5F /* Main.storyboard */,
+				E18020A01E5A58E000BF1408 /* CalculatorBrain.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18020A11E5A58E000BF1408 /* CalculatorBrain.swift in Sources */,
 				E1BCFBA31E57CD5A00F0BA5F /* ViewController.swift in Sources */,
 				E1BCFBA11E57CD5A00F0BA5F /* AppDelegate.swift in Sources */,
 			);
@@ -308,6 +312,7 @@
 				E1BCFBB11E57CD5A00F0BA5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
