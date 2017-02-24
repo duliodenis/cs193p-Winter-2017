@@ -14,16 +14,20 @@ Lecture  | Slides | Source | Video | Date
 1. | [Course Overview: Intro to iOS, Xcode, and Swift](slides/Lecture-1-Slides.pdf) |  |  | January 9, 2017
 2. | [Applying MVC: Calculator Demo Continued](slides/Lecture-2-Slides.pdf) |  |  | January 11, 2017
 3. | [More Swift & Foundation Framework](slides/Lecture-3-Slides.pdf) |  |  | January 18, 2017
+4. | [Custom Views](slides/Lecture-4-Slides.pdf) |  |  | January 23, 2017
+5. | [Gestures and Multiple MVCs](slides/Lecture-5-Slides.pdf) |  |  | January 25, 2017
 
 ## Reading Assignments
 Reading  | Name
 ------------- | -------------
-1. | [Reading 1: Intro to Swift](reading/Reading_Assignment_1_Intro to Swift.pdf)
+1. | [Reading 1: Intro to Swift](reading/Reading_Assignment_1_Intro_to_Swift.pdf)
+2. | [Reading 2: More Swift](reading/Reading_Assignment_2_More_Swift.pdf)
 
 ## Problem Sets
 PS  | Name
 ------------- | -------------
 1. | [Assignment 1: Calculator](problemsets/Programming_Project_1_Calculator.pdf)
+2. | [Assignment 2: Calculator Brain](problemsets/Programming_Project_2_Calculator_Brain.pdf)
 
 ## Licensing
 My CS193p projects are licensed under [the MIT License](LICENSE).
