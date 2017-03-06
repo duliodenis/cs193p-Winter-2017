@@ -15,13 +15,16 @@ Lecture  | Slides | Source | Video | Date
 2. | [Applying MVC: Calculator Demo Continued](slides/Lecture-2-Slides.pdf) |  |  | January 11, 2017
 3. | [More Swift & Foundation Framework](slides/Lecture-3-Slides.pdf) |  |  | January 18, 2017
 4. | [Custom Views](slides/Lecture-4-Slides.pdf) |  |  | January 23, 2017
-5. | [Gestures and Multiple MVCs](slides/Lecture-5-Slides.pdf) |  |  | January 25, 2017
+5. | [Gestures and Multiple MVCs](slides/Lecture-5-Slides.pdf) | [![](art/Xcode.png?raw=true)] (democode/Lecture-5-Demo-Code_FaceIt.pdf) |  | January 25, 2017
+6. | [Multiple MVCs, View Controller Lifecycle, and Memory Management ](slides/Lecture-6-Slides.pdf) | [![](art/Xcode.png?raw=true)] (democode/Lecture-6-Demo-Code_FaceIt.pdf) |  | January 30, 2017
+7. | [Error Handling in Swift, Extensions, Protocols, Delegation, and Scroll Views](slides/Lecture-7-Slides.pdf) | [![](art/Xcode.png?raw=true)] (democode/Lecture-7-Demo-Code_Cassini.pdf) |  | February 1, 2017
 
 ## Reading Assignments
 Reading  | Name
 ------------- | -------------
 1. | [Reading 1: Intro to Swift](reading/Reading_Assignment_1_Intro_to_Swift.pdf)
 2. | [Reading 2: More Swift](reading/Reading_Assignment_2_More_Swift.pdf)
+3. | [Reading 3: The Rest of Swift](reading/Reading_Assignment_3_The_Rest_of_Swift.pdf)
 
 ## Problem Sets
 PS  | Name
