@@ -18,6 +18,8 @@ Lecture  | Slides | Source | Video | Date
 5. | [Gestures and Multiple MVCs](slides/Lecture-5-Slides.pdf) | [![](art/Xcode.png?raw=true)] (democode/Lecture-5-Demo-Code_FaceIt.pdf) |  | January 25, 2017
 6. | [Multiple MVCs, View Controller Lifecycle, and Memory Management ](slides/Lecture-6-Slides.pdf) | [![](art/Xcode.png?raw=true)] (democode/Lecture-6-Demo-Code_FaceIt.pdf) |  | January 30, 2017
 7. | [Error Handling in Swift, Extensions, Protocols, Delegation, and Scroll Views](slides/Lecture-7-Slides.pdf) | [![](art/Xcode.png?raw=true)] (democode/Lecture-7-Demo-Code_Cassini.pdf) |  | February 1, 2017
+8. | [Multithreading, Text Field, Table View Intro](slides/Lecture-8-Slides.pdf) | [![](art/Xcode.png?raw=true)] (democode/Lecture-8-Demo-Code_Cassini.pdf) |  | February 6, 2017
+9. | [Table View](slides/Lecture-9-Slides.pdf) | [![](art/Xcode.png?raw=true)] (democode/Lecture-9-Demo-Code_Smashtag.pdf) |  | February 8, 2017
 
 ## Reading Assignments
 Reading  | Name
@@ -31,6 +33,7 @@ PS  | Name
 ------------- | -------------
 1. | [Assignment 1: Calculator](problemsets/Programming_Project_1_Calculator.pdf)
 2. | [Assignment 2: Calculator Brain](problemsets/Programming_Project_2_Calculator_Brain.pdf)
+3. | [Assignment 3: Graphing Calculator](problemsets/Programming_Project_3_Graphing_Calc.pdf)
 
 ## Licensing
 My CS193p projects are licensed under [the MIT License](LICENSE).
