@@ -28,6 +28,7 @@ Lecture | Slides | Source | Video | Date
 | 15. | [Segues](slides/Lecture-15-Slides.pdf) | [![](art/Xcode.png?raw=true)](democode/Lecture-15-Demo-Code_FaceIt_Segues.pdf) | [![](art/play.png?raw=true)](https://youtu.be/MJkLuBbkgGc?list=PLPA-ayBrweUz32NSgNZdl0_QISw-f12Ai) | March 6, 2017
 
 ## Reading Assignments
+
 Reading  | Name
 | ------------- | -------------
 | 1. | [Reading 1: Intro to Swift](reading/Reading_Assignment_1_Intro_to_Swift.pdf)
@@ -35,6 +36,7 @@ Reading  | Name
 | 3. | [Reading 3: The Rest of Swift](reading/Reading_Assignment_3_The_Rest_of_Swift.pdf)
 
 ## Problem Sets
+
 PS  | Name
 | ------------- | -------------
 | 1. | [Assignment 1: Calculator](problemsets/Programming_Project_1_Calculator.pdf)
