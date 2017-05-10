@@ -26,6 +26,8 @@ Lecture | Slides | Source | Video | Date
 | 13. | [Timer / Animation](slides/Lecture-13-Slides.pdf) | [![](art/Xcode.png?raw=true)](democode/Lecture-13-Demo-Code_FaceIt.pdf) | [![](art/play.png?raw=true)](https://youtu.be/6tdNJwDwFys?list=PLPA-ayBrweUz32NSgNZdl0_QISw-f12Ai) | February 27, 2017
 | 14. | Dynamic Animation Demos | [![](art/Xcode.png?raw=true)](democode/Lecture-14-Demo-Code_Asteroids.pdf) | [![](art/play.png?raw=true)](https://youtu.be/8RYQ1a_ZDmw?list=PLPA-ayBrweUz32NSgNZdl0_QISw-f12Ai) | March 1, 2017
 | 15. | [Segues](slides/Lecture-15-Slides.pdf) | [![](art/Xcode.png?raw=true)](democode/Lecture-15-Demo-Code_FaceIt_Segues.pdf) | [![](art/play.png?raw=true)](https://youtu.be/MJkLuBbkgGc?list=PLPA-ayBrweUz32NSgNZdl0_QISw-f12Ai) | March 6, 2017
+| 16. | [Alerts, Notifications, Lifecycles, Persistence](slides/Lecture-16-Slides.pdf) | | [![](art/play.png?raw=true)](https://youtu.be/hkUeDMW7qX0?list=PLPA-ayBrweUz32NSgNZdl0_QISw-f12Ai | March 8, 2017
+| 17. | Accessibility | | [![](art/play.png?raw=true)](https://youtu.be/NOzXRBom7bw?list=PLPA-ayBrweUz32NSgNZdl0_QISw-f12Ai | March 13, 2017
 
 ## Reading Assignments
 
